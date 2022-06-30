@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#whiteBar {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#contactus {
+  color: Orange;
+}
+.whiteBarTxt {
+  padding-right: 15px;
+}
+#body {
+  background-image: url("./Hero.png");
+  width: 100vw;
+  height: 93vh;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#buildingTxt {
+  font-size: 50px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 50vh;
+  justify-content: center;
+  margin-left: 40px;
+}
+#button {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #f9995d;
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-align: center;
+}
