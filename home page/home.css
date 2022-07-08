@@ -3,19 +3,22 @@
   padding: 0;
 }
 #whiteBar {
-  height: 55px;
+  height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 112px;
+  padding-right: 112px;
 }
+
 #contactus {
-  color: Orange;
+  color: f9995d;
 }
 .whiteBarTxt {
-  padding-right: 15px;
+  padding-right: 50px;
 }
 #body {
-  background-image: url("./Hero.png");
+  background-image: url("../Hero.png");
   width: 100vw;
   height: 93vh;
   background-position: center center;
@@ -23,9 +26,13 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display: flex;
+  align-items: center;
 }
 #buildingTxt {
-  font-size: 50px;
+  font-size: 72px;
+  font-weight: 700;
+  width: 700px;
 }
 
 .mainContainer {
@@ -34,17 +41,22 @@
   width: 60vw;
   height: 50vh;
   justify-content: center;
-  margin-left: 40px;
+  padding-left: 112px;
 }
 #button {
   display: flex;
   justify-content: center;
   color: white;
   background-color: #f9995d;
-  width: 150px;
-  height: 30px;
+  width: 216px;
+  height: 54px;
   border: none;
   border-radius: 5px;
   margin-top: 15px;
-  text-align: center;
+  align-items: center;
+}
+#text {
+  width: 448px;
+  line-height: 34px;
+  font-size: 17px;
 }

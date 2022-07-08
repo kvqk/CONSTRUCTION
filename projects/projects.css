@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#whiteBar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 112px;
+  padding-right: 112px;
+}
+.whiteBarTxt {
+  padding-right: 50px;
+}
+#projectOrange {
+  color: #f9995d;
+}
+#whatTxt {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  position: absolute;
+  width: 432px;
+  height: 42px;
+  left: calc(50% - 432px / 2);
+  top: 201px;
+}
+#readytext {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  position: absolute;
+  width: 539px;
+  height: 46px;
+  left: 418px;
+  top: 250px;
+}
+#nameInput {
+  position: absolute;
+  height: 41px;
+  left: 424px;
+  right: 736px;
+  top: 206px;
+  background: #ffffff;
+  border: 1px solid #e0e3eb;
+  border-radius: 4px;
+}
+#phoneInput {
+  background: #ffffff;
+  border: 1px solid #e0e3eb;
+  border-radius: 4px;
+}

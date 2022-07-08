@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#whiteBar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 112px;
+  padding-right: 112px;
+}
+.whiteBarTxt {
+  padding-right: 50px;
+}
+#services {
+  color: orange;
+}
+#box1 {
+  height: 181px;
+  width: 270px;
+  background-color: white;
+}
+#serviceTxt {
+  padding-bottom: 36px;
+  padding-top: 100px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+#serviceBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  background-color: #f6f8f7;
+}
+.box {
+  width: 271px;
+  height: 181px;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+}
+#row1 {
+  display: flex;
+  margin-bottom: 48px;
+}
+#row2 {
+  display: flex;
+}
+#box2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #f9995d;
+}
+#box3 {
+  background-color: white;
+}
+#box4 {
+  background-color: #f9995d;
+}
+#box5 {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: white;
+}
+#box6 {
+  background-color: #f9995d;
+}
+#whiteBoxes {
+  background-color: white;
+}
+#underline {
+  width: 60px;
+  height: 2px;
+  background-color: #e0e3eb;
+  margin-left: 98px;
+}
+#svg {
+  margin-left: 114px;
+}
+#orangeBoxLine {
+  width: 60px;
+  height: 2px;
+  background-color: #e0e3eb;
+  margin-left: 103px;
+}
+#box1Text {
+  display: flex;
+  color: #f9995d;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  margin-left: 77px;
+  padding-top: 20px;
+}
+#box2Text{
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  margin-left: 81px;
+  padding-top: 20px;
+}
+#box3Text{
+  display: flex;
+  color: #f9995d;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  margin-left: 77px;
+  padding-top: 20px;
+}
+#box4Text{
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  margin-left: 70px;
+  padding-top: 20px;
+}
+#box5Text{
+  display: flex;
+  color: #f9995d;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  margin-left: 77px;
+  padding-top: 20px;
+}
+#box6Text{
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  margin-left: 98px;
+  padding-top: 20px;
+}
+
