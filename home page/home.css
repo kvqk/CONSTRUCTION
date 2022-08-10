@@ -16,11 +16,12 @@
 }
 .whiteBarTxt {
   padding-right: 50px;
+  font-family: sans-serif;
 }
 #body {
   background-image: url("../Hero.png");
   width: 100vw;
-  height: 93vh;
+  height: 90vh;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -33,6 +34,7 @@
   font-size: 72px;
   font-weight: 700;
   width: 700px;
+  font-family: sans-serif;
 }
 
 .mainContainer {
@@ -54,9 +56,63 @@
   border-radius: 5px;
   margin-top: 15px;
   align-items: center;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+#button a {
+  text-decoration: none;
+  color: white;
 }
 #text {
   width: 448px;
   line-height: 34px;
   font-size: 17px;
+  font-family: sans-serif;
+}
+.home {
+  color: #f9995d;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+}
+.about {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+}
+.projects {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+}
+.services {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+}
+.contact {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.home a {
+  text-decoration: none;
+  color: #f9995d;
+}
+.about a {
+  text-decoration: none;
+  color: black;
+}
+.projects a {
+  text-decoration: none;
+  color: black;
+}
+.services a {
+  text-decoration: none;
+  color: black;
+}
+.contact a {
+  text-decoration: none;
+  color: black;
 }

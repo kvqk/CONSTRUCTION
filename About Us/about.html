@@ -13,16 +13,41 @@
         <span>Logo</span>
       </div>
       <div>
-        <span class="whiteBarTxt" id="contactus">Home</span>
-        <span class="whiteBarTxt" id="aboutUsOrange">About us</span>
-        <span class="whiteBarTxt">Projects</span>
-        <span class="whiteBarTxt">Services</span>
-        <span class="contactus">Contact Us</span>
+        <span class="whiteBarTxt home"
+          ><a href="../home page/home.html">Home</a></span
+        >
+        <span class="whiteBarTxt about"
+          ><a href="../About Us/about.html">About us</a></span
+        >
+        <span class="whiteBarTxt projects"
+          ><a href="../projects/projects.html">Projects</a></span
+        >
+        <span class="whiteBarTxt services"
+          ><a href="../Services/Services.html">Services</a></span
+        >
+        <span class="whiteBarTxt contact"
+          ><a href="../contact/contact.html">Contact Us</a></span
+        >
       </div>
     </div>
-    <div style="width: 100vw; height: 88.3vh; display: flex; background-color: #f7f8f7 ; ">
-      <div style="width: 60vw; height: 100%">
-        <div style="position: absolute; left: 450px">
+    <div
+      style="
+        width: 100vw;
+        height: 88.3vh;
+        display: flex;
+        background-color: #f7f8f7;
+      "
+    >
+      <div
+        style="
+          width: 70vw;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <div style="position: absolute; right: 650px; top: 150px; z-index: 100">
           <object
             id="svg1"
             data="../svgs/First.svg"
@@ -30,17 +55,29 @@
             class="logo"
           ></object>
         </div>
-        <object id="svg2" data="../svgs/second.svg" type="image/svg+xml"></object>
-        <object id="svg3" data="../svgs/third.svg" type="image/svg+xml"></object>
-        <object id="svgr" data="../svgs/fourth.svg" type="image/svg+xml"></object>
+        <div style="position: absolute; left: 115px; top: 200px">
+          <object
+            id="svg2"
+            data="../svgs/second.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+        <div id="svg3">
+          <object data="../svgs/third.svg" type="image/svg+xml"></object>
+        </div>
+        <div id="svg4">
+          <object data="../svgs/fourth.svg" type="image/svg+xml"></object>
+        </div>
       </div>
-      <div style="width: 40vw; height: 100%">
+      <div id="divCompany">
         <p id="txt">30 Years Experience</p>
         <p id="companytxt">
           Our company has been the leading provided construction services to
           clients throughout the USA since 1988.
         </p>
-        <button id="button">Contact Us</button>
+        <button id="button">
+          <a href="../contact/contact.html">Contact Us</a>
+        </button>
       </div>
     </div>
   </body>

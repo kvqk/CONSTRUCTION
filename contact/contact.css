@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#whiteBar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 112px;
+  padding-right: 112px;
+}
+.whiteBarTxt {
+  padding-right: 50px;
+  font-family: sans-serif;
+}
+#projectOrange {
+  color: #f9995d;
+}
+#body {
+  background-color: #f7f8f7;
+  width: 100vw;
+  height: 88.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  cursor: pointer;
+}
+#title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#readytext {
+  width: 62%;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+#nameInput {
+  background: #ffffff;
+  border: 1px solid #e0e3eb;
+  border-radius: 4px;
+  height: 41px;
+  width: 280px;
+}
+::-webkit-input-placeholder {
+  padding-left: 10px;
+}
+#phoneInput {
+  background: #ffffff;
+  border: 1px solid #e0e3eb;
+  border-radius: 4px;
+  height: 41px;
+  width: 280px;
+}
+#emailInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 587px;
+  height: 41px;
+  background: #ffffff;
+  border: 1px solid #e0e3eb;
+  border-radius: 4px; 
+  margin-top: 20px;
+}
+.home a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.about a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.projects a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.services a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.contact a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f9995d;
+}
+#msgInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #ffffff;
+  border: 1px solid #e0e3eb;
+  height: 135px;
+  width: 587px;
+  margin-top: 20px;
+}
+#indicateTxt {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+#button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 20px;
+  background: #f9995d;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  width: 271px;
+  height: 53px;
+}

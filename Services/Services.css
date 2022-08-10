@@ -12,6 +12,7 @@
 }
 .whiteBarTxt {
   padding-right: 50px;
+  font-family: sans-serif;font-family: sans-serif;font-family: sans-serif;font-family: sans-serif;
 }
 #services {
   color: orange;
@@ -20,6 +21,10 @@
   height: 181px;
   width: 270px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #serviceTxt {
   padding-bottom: 36px;
@@ -55,20 +60,41 @@
   margin-left: 50px;
   margin-right: 50px;
   background-color: #f9995d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #box3 {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #box4 {
   background-color: #f9995d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #box5 {
   margin-left: 50px;
   margin-right: 50px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 #box6 {
   background-color: #f9995d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #whiteBoxes {
   background-color: white;
@@ -76,17 +102,15 @@
 #underline {
   width: 60px;
   height: 2px;
+  margin-top: 20px;
   background-color: #e0e3eb;
-  margin-left: 98px;
 }
-#svg {
-  margin-left: 114px;
-}
+
 #orangeBoxLine {
   width: 60px;
   height: 2px;
+  margin-top: 20px;
   background-color: #e0e3eb;
-  margin-left: 103px;
 }
 #box1Text {
   display: flex;
@@ -94,52 +118,79 @@
   font-size: 20px;
   font-weight: 600;
   align-items: center;
-  margin-left: 77px;
-  padding-top: 20px;
-}
-#box2Text{
-  display: flex;
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
-  align-items: center;
-  margin-left: 81px;
-  padding-top: 20px;
-}
-#box3Text{
-  display: flex;
-  color: #f9995d;
-  font-size: 20px;
-  font-weight: 600;
-  align-items: center;
-  margin-left: 77px;
-  padding-top: 20px;
-}
-#box4Text{
-  display: flex;
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
-  align-items: center;
-  margin-left: 70px;
-  padding-top: 20px;
-}
-#box5Text{
-  display: flex;
-  color: #f9995d;
-  font-size: 20px;
-  font-weight: 600;
-  align-items: center;
-  margin-left: 77px;
-  padding-top: 20px;
-}
-#box6Text{
-  display: flex;
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
-  align-items: center;
-  margin-left: 98px;
-  padding-top: 20px;
-}
 
+  padding-top: 20px;
+}
+#box2Text {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  padding-top: 20px;
+}
+#box3Text {
+  display: flex;
+  color: #f9995d;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+
+  padding-top: 20px;
+}
+#box4Text {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+
+  padding-top: 20px;
+}
+#box5Text {
+  display: flex;
+  color: #f9995d;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  padding-top: 20px;
+}
+#box6Text {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  padding-top: 20px;
+}
+.home a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.about a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.projects a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.services a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f9995d;
+}
+.contact a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
